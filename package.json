@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "parcel no config to pack js html css",
   "scripts": {
-    "start": "parcel src/*.html --out-dir bin",
+    "start": "node script/server.js",
     "build": "parcel build src/*.html --out-dir dist",
+    "serve": "serve dist/",
     "clean": "rimraf dist/"
   },
   "repository": {
@@ -20,8 +21,12 @@
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.0",
     "cssnano": "^4.1.10",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "parcel-bundler": "^1.12.3",
     "rimraf": "^2.6.3",
     "sass": "^1.20.1",
+    "serve": "^11.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {

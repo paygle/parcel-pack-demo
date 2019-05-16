@@ -31,6 +31,9 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "gsap": "^2.1.2",
+    "scrollmagic": "^2.0.6",
+    "smooth-scroll": "^16.0.3",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.3",
     "vue-router": "^3.0.6",
